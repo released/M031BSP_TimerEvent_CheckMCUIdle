@@ -1,0 +1,548 @@
+Component: Arm Compiler for Embedded 6.22 Tool: armlink [5ee90200]
+
+==============================================================================
+
+Small function inlining results
+
+Inlined function __aeabi_idiv0 from idiv0.o at offset 0x160 in aeabi_sdiv.o(.text).
+Inlined Instruction: BX       lr
+Inlined function __aeabi_idiv0 from idiv0.o at offset 0xc in aeabi_sdiv_div0.o(.text).
+Inlined Instruction: BX       lr
+Inlined function __aeabi_idiv0 from idiv0.o at offset 0x176 in aeabi_sdiv_div0.o(.text).
+Inlined Instruction: BX       lr
+Inlined function __aeabi_idiv0 from idiv0.o at offset 0x18 in uidiv_div0.o(.text).
+Inlined Instruction: BX       lr
+Inlined function __aeabi_idiv0 from idiv0.o at offset 0x42 in idiv_div0.o(.text).
+Inlined Instruction: BX       lr
+Inlined total of 5 calls.
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../../Library/Device/Nuvoton/M031/Source/ARM/startup_M031Series.s 0x00000000   Number         0  startup_m031series.o ABSOLUTE
+    ../clib/division.s                       0x00000000   Number         0  aeabi_sdiv.o ABSOLUTE
+    ../clib/division.s                       0x00000000   Number         0  aeabi_sdiv_div0.o ABSOLUTE
+    ../clib/microlib/division.c              0x00000000   Number         0  uidiv.o ABSOLUTE
+    ../clib/microlib/division.c              0x00000000   Number         0  uldiv.o ABSOLUTE
+    ../clib/microlib/division.c              0x00000000   Number         0  uidiv_div0.o ABSOLUTE
+    ../clib/microlib/division.c              0x00000000   Number         0  idiv_div0.o ABSOLUTE
+    ../clib/microlib/division.c              0x00000000   Number         0  idiv0.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry2.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry5.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11b.o ABSOLUTE
+    ../clib/microlib/longlong.c              0x00000000   Number         0  llshl.o ABSOLUTE
+    ../clib/microlib/longlong.c              0x00000000   Number         0  llushr.o ABSOLUTE
+    ../clib/microlib/longlong.c              0x00000000   Number         0  llsshr.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printfb.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf0.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf1.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf2.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf3.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf4.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf5.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf6.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf7.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf8.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printfa.o ABSOLUTE
+    ../clib/microlib/printf/stubs.s          0x00000000   Number         0  printfstubs.o ABSOLUTE
+    ../clib/microlib/stdio/putchar.c         0x00000000   Number         0  putchar.o ABSOLUTE
+    ../clib/microlib/stdio/puts.c            0x00000000   Number         0  puts.o ABSOLUTE
+    ../clib/microlib/stdio/puts.c            0x00000000   Number         0  puts_e.o ABSOLUTE
+    ../clib/microlib/string/memcmp.c         0x00000000   Number         0  memcmp.o ABSOLUTE
+    ../clib/microlib/string/memcpy.c         0x00000000   Number         0  memcpya.o ABSOLUTE
+    ../clib/microlib/string/memcpy.c         0x00000000   Number         0  memcpyb.o ABSOLUTE
+    ../clib/microlib/stubs.s                 0x00000000   Number         0  iusefp.o ABSOLUTE
+    ../fplib/microlib/fpadd.c                0x00000000   Number         0  dadd.o ABSOLUTE
+    ../fplib/microlib/fpdiv.c                0x00000000   Number         0  ddiv.o ABSOLUTE
+    ../fplib/microlib/fpepilogue.c           0x00000000   Number         0  depilogue.o ABSOLUTE
+    ../fplib/microlib/fpfix.c                0x00000000   Number         0  dfixul.o ABSOLUTE
+    ../fplib/microlib/fpmul.c                0x00000000   Number         0  dmul.o ABSOLUTE
+    cdrcmple.s                               0x00000000   Number         0  cdrcmple.o ABSOLUTE
+    handlers.s                               0x00000000   Number         0  handlers.o ABSOLUTE
+    init.s                                   0x00000000   Number         0  init.o ABSOLUTE
+    ld-temp.o                                0x00000000   Number         0  lto-llvm-b03267.o ABSOLUTE
+    RESET                                    0x00000000   Section      192  startup_m031series.o(RESET)
+    .ARM.Collect$$$$00000000                 0x000000c0   Section        0  entry.o(.ARM.Collect$$$$00000000)
+    .ARM.Collect$$$$00000001                 0x000000c0   Section        4  entry2.o(.ARM.Collect$$$$00000001)
+    .ARM.Collect$$$$00000004                 0x000000c4   Section        4  entry5.o(.ARM.Collect$$$$00000004)
+    .ARM.Collect$$$$00000008                 0x000000c8   Section        0  entry7b.o(.ARM.Collect$$$$00000008)
+    .ARM.Collect$$$$0000000A                 0x000000c8   Section        0  entry8b.o(.ARM.Collect$$$$0000000A)
+    .ARM.Collect$$$$0000000B                 0x000000c8   Section        8  entry9a.o(.ARM.Collect$$$$0000000B)
+    __lit__00000000                          0x000000d0   Data           4  entry2.o(.ARM.Collect$$$$00002712)
+    .ARM.Collect$$$$0000000D                 0x000000d0   Section        0  entry10a.o(.ARM.Collect$$$$0000000D)
+    .ARM.Collect$$$$0000000F                 0x000000d0   Section        0  entry11a.o(.ARM.Collect$$$$0000000F)
+    .ARM.Collect$$$$00002712                 0x000000d0   Section        4  entry2.o(.ARM.Collect$$$$00002712)
+    .text                                    0x000000d4   Section      128  startup_m031series.o(.text)
+    Default_Handler                          0x00000113   Thumb Code     2  startup_m031series.o(.text)
+    .text                                    0x00000154   Section        0  uldiv.o(.text)
+    .text                                    0x000001b4   Section       48  init.o(.text)
+    .text                                    0x000001e4   Section        0  uidiv_div0.o(.text)
+    .text                                    0x00000222   Section        0  llshl.o(.text)
+    .text                                    0x00000242   Section        0  llushr.o(.text)
+    .text                                    0x00000264   Section        0  memcpya.o(.text)
+    CLK_GetPCLK0Freq                         0x00000289   Thumb Code    24  lto-llvm-b03267.o(.text.CLK_GetPCLK0Freq)
+    [Anonymous Symbol]                       0x00000288   Section        0  lto-llvm-b03267.o(.text.CLK_GetPCLK0Freq)
+    __arm_cp.7_0                             0x000002a0   Number         4  lto-llvm-b03267.o(.text.CLK_GetPCLK0Freq)
+    CLK_WaitClockReady                       0x000002a5   Thumb Code    20  lto-llvm-b03267.o(.text.CLK_WaitClockReady)
+    [Anonymous Symbol]                       0x000002a4   Section        0  lto-llvm-b03267.o(.text.CLK_WaitClockReady)
+    __arm_cp.8_1                             0x000002b8   Number         4  lto-llvm-b03267.o(.text.CLK_WaitClockReady)
+    CpuLoadMonitor_Callback                  0x000002bd   Thumb Code   104  lto-llvm-b03267.o(.text.CpuLoadMonitor_Callback)
+    [Anonymous Symbol]                       0x000002bc   Section        0  lto-llvm-b03267.o(.text.CpuLoadMonitor_Callback)
+    __arm_cp.23_2                            0x00000324   Number         4  lto-llvm-b03267.o(.text.CpuLoadMonitor_Callback)
+    Fast1ms_Callback                         0x00000329   Thumb Code    12  lto-llvm-b03267.o(.text.Fast1ms_Callback)
+    [Anonymous Symbol]                       0x00000328   Section        0  lto-llvm-b03267.o(.text.Fast1ms_Callback)
+    __arm_cp.11_0                            0x00000334   Number         4  lto-llvm-b03267.o(.text.Fast1ms_Callback)
+    GPIO_SetMode                             0x00000339   Thumb Code    44  lto-llvm-b03267.o(.text.GPIO_SetMode)
+    [Anonymous Symbol]                       0x00000338   Section        0  lto-llvm-b03267.o(.text.GPIO_SetMode)
+    __arm_cp.9_0                             0x00000364   Number         4  lto-llvm-b03267.o(.text.GPIO_SetMode)
+    [Anonymous Symbol]                       0x00000368   Section        0  lto-llvm-b03267.o(.text.ProcessHardFault)
+    __arm_cp.3_0                             0x00000390   Number         4  lto-llvm-b03267.o(.text.ProcessHardFault)
+    __arm_cp.3_2                             0x000003a4   Number         4  lto-llvm-b03267.o(.text.ProcessHardFault)
+    [Anonymous Symbol]                       0x000003a8   Section        0  lto-llvm-b03267.o(.text.SH_Return)
+    SYS_UnlockReg                            0x000003ad   Thumb Code    24  lto-llvm-b03267.o(.text.SYS_UnlockReg)
+    [Anonymous Symbol]                       0x000003ac   Section        0  lto-llvm-b03267.o(.text.SYS_UnlockReg)
+    [Anonymous Symbol]                       0x000003c4   Section        0  lto-llvm-b03267.o(.text.SysTick_Handler)
+    SystemCoreClockUpdate                    0x000003d1   Thumb Code   100  lto-llvm-b03267.o(.text.SystemCoreClockUpdate)
+    [Anonymous Symbol]                       0x000003d0   Section        0  lto-llvm-b03267.o(.text.SystemCoreClockUpdate)
+    __arm_cp.0_0                             0x00000434   Number         4  lto-llvm-b03267.o(.text.SystemCoreClockUpdate)
+    __arm_cp.0_1                             0x00000438   Number         4  lto-llvm-b03267.o(.text.SystemCoreClockUpdate)
+    __arm_cp.0_2                             0x0000043c   Number         4  lto-llvm-b03267.o(.text.SystemCoreClockUpdate)
+    __arm_cp.0_3                             0x00000440   Number         4  lto-llvm-b03267.o(.text.SystemCoreClockUpdate)
+    __arm_cp.0_4                             0x00000444   Number         4  lto-llvm-b03267.o(.text.SystemCoreClockUpdate)
+    gau32ClkSrcTbl                           0x00000448   Number         0  lto-llvm-b03267.o(.text.SystemCoreClockUpdate)
+    __arm_cp.0_6                             0x00000468   Number         4  lto-llvm-b03267.o(.text.SystemCoreClockUpdate)
+    [Anonymous Symbol]                       0x0000046c   Section        0  lto-llvm-b03267.o(.text.SystemInit)
+    __arm_cp.1_0                             0x00000498   Number         4  lto-llvm-b03267.o(.text.SystemInit)
+    __arm_cp.1_1                             0x0000049c   Number         4  lto-llvm-b03267.o(.text.SystemInit)
+    [Anonymous Symbol]                       0x000004a0   Section        0  lto-llvm-b03267.o(.text.TMR1_IRQHandler)
+    __arm_cp.17_0                            0x0000053c   Number         4  lto-llvm-b03267.o(.text.TMR1_IRQHandler)
+    __arm_cp.17_1                            0x00000540   Number         4  lto-llvm-b03267.o(.text.TMR1_IRQHandler)
+    __arm_cp.17_3                            0x00000544   Number         4  lto-llvm-b03267.o(.text.TMR1_IRQHandler)
+    Task1_Callback                           0x00000549   Thumb Code    20  lto-llvm-b03267.o(.text.Task1_Callback)
+    [Anonymous Symbol]                       0x00000548   Section        0  lto-llvm-b03267.o(.text.Task1_Callback)
+    __arm_cp.16_0                            0x0000055c   Number         4  lto-llvm-b03267.o(.text.Task1_Callback)
+    __arm_cp.16_1                            0x00000560   Number         4  lto-llvm-b03267.o(.text.Task1_Callback)
+    Task2_Callback                           0x00000575   Thumb Code    20  lto-llvm-b03267.o(.text.Task2_Callback)
+    [Anonymous Symbol]                       0x00000574   Section        0  lto-llvm-b03267.o(.text.Task2_Callback)
+    __arm_cp.15_0                            0x00000588   Number         4  lto-llvm-b03267.o(.text.Task2_Callback)
+    Task3_Callback                           0x000005b1   Thumb Code     2  lto-llvm-b03267.o(.text.Task3_Callback)
+    [Anonymous Symbol]                       0x000005b0   Section        0  lto-llvm-b03267.o(.text.Task3_Callback)
+    Task4_Callback                           0x000005b3   Thumb Code     2  lto-llvm-b03267.o(.text.Task4_Callback)
+    [Anonymous Symbol]                       0x000005b2   Section        0  lto-llvm-b03267.o(.text.Task4_Callback)
+    Task5_Callback                           0x000005b5   Thumb Code    32  lto-llvm-b03267.o(.text.Task5_Callback)
+    [Anonymous Symbol]                       0x000005b4   Section        0  lto-llvm-b03267.o(.text.Task5_Callback)
+    __arm_cp.12_0                            0x000005d4   Number         4  lto-llvm-b03267.o(.text.Task5_Callback)
+    __arm_cp.12_1                            0x000005d8   Number         4  lto-llvm-b03267.o(.text.Task5_Callback)
+    __arm_cp.12_2                            0x000005dc   Number         4  lto-llvm-b03267.o(.text.Task5_Callback)
+    TimerService_CreateTimer                 0x000005f1   Thumb Code    52  lto-llvm-b03267.o(.text.TimerService_CreateTimer)
+    [Anonymous Symbol]                       0x000005f0   Section        0  lto-llvm-b03267.o(.text.TimerService_CreateTimer)
+    TimerService_StartTimer                  0x00000625   Thumb Code    28  lto-llvm-b03267.o(.text.TimerService_StartTimer)
+    [Anonymous Symbol]                       0x00000624   Section        0  lto-llvm-b03267.o(.text.TimerService_StartTimer)
+    __arm_cp.21_0                            0x00000640   Number         4  lto-llvm-b03267.o(.text.TimerService_StartTimer)
+    [Anonymous Symbol]                       0x00000644   Section        0  lto-llvm-b03267.o(.text.UART02_IRQHandler)
+    __arm_cp.19_0                            0x000006ac   Number         4  lto-llvm-b03267.o(.text.UART02_IRQHandler)
+    __arm_cp.19_1                            0x000006b0   Number         4  lto-llvm-b03267.o(.text.UART02_IRQHandler)
+    __arm_cp.19_4                            0x000006d8   Number         4  lto-llvm-b03267.o(.text.UART02_IRQHandler)
+    [Anonymous Symbol]                       0x000006dc   Section        0  lto-llvm-b03267.o(.text.fputc)
+    __arm_cp.4_0                             0x000006fc   Number         4  lto-llvm-b03267.o(.text.fputc)
+    [Anonymous Symbol]                       0x00000700   Section        0  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_62                           0x00000a80   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_63                           0x00000a84   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_65                           0x00000a8c   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_67                           0x00000aa8   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_68                           0x00000aac   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_69                           0x00000ab0   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_70                           0x00000ab4   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_71                           0x00000ab8   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_73                           0x00000ac0   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_74                           0x00000ac4   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_75                           0x00000ac8   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_80                           0x00000b34   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_81                           0x00000b38   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_82                           0x00000b3c   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_2                            0x00000d08   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_8                            0x00000d0c   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_9                            0x00000d10   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_12                           0x00000d14   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_23                           0x00000d18   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_25                           0x00000d30   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_26                           0x00000d34   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_27                           0x00000d38   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_28                           0x00000d3c   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_29                           0x00000d40   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_30                           0x00000d44   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_31                           0x00000d48   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_32                           0x00000d4c   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_33                           0x00000d50   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_34                           0x00000d54   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_35                           0x00000d58   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_36                           0x00000d5c   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_37                           0x00000d60   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_38                           0x00000d64   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_39                           0x00000d68   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_40                           0x00000d6c   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_41                           0x00000d70   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_42                           0x00000d74   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_43                           0x00000d78   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_44                           0x00000d7c   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_45                           0x00000d80   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_46                           0x00000d84   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_47                           0x00000d88   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_48                           0x00000d8c   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_49                           0x00000d90   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_50                           0x00000d94   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_51                           0x00000d98   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_52                           0x00000d9c   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_53                           0x00000da0   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_54                           0x00000da4   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_55                           0x00000da8   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_56                           0x00000dac   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_57                           0x00000db0   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_58                           0x00000db4   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_59                           0x00000db8   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_60                           0x00000dbc   Number         4  lto-llvm-b03267.o(.text.main)
+    __arm_cp.20_61                           0x00000dc0   Number         4  lto-llvm-b03267.o(.text.main)
+    i.__0printf$8                            0x00000dc4   Section        0  printf8.o(i.__0printf$8)
+    i.__scatterload_copy                     0x00000de4   Section       14  handlers.o(i.__scatterload_copy)
+    i.__scatterload_null                     0x00000df2   Section        2  handlers.o(i.__scatterload_null)
+    i.__scatterload_zeroinit                 0x00000df4   Section       14  handlers.o(i.__scatterload_zeroinit)
+    _printf_core                             0x00000e05   Thumb Code  1020  printf8.o(i._printf_core)
+    i._printf_core                           0x00000e04   Section        0  printf8.o(i._printf_core)
+    _printf_post_padding                     0x0000122d   Thumb Code    32  printf8.o(i._printf_post_padding)
+    i._printf_post_padding                   0x0000122c   Section        0  printf8.o(i._printf_post_padding)
+    _printf_pre_padding                      0x0000124d   Thumb Code    44  printf8.o(i._printf_pre_padding)
+    i._printf_pre_padding                    0x0000124c   Section        0  printf8.o(i._printf_pre_padding)
+    i.puts                                   0x00001278   Section        0  puts.o(i.puts)
+    [Anonymous Symbol]                       0x00001298   Section        0  lto-llvm-b03267.o(.rodata.cst32)
+    [Anonymous Symbol]                       0x000012b8   Section        0  lto-llvm-b03267.o(.rodata.cst4)
+    [Anonymous Symbol]                       0x000012bc   Section        0  lto-llvm-b03267.o(.rodata.str1.1)
+    SystemCoreClock                          0x20000000   Data           4  lto-llvm-b03267.o(.data..L_MergedGlobals)
+    [Anonymous Symbol]                       0x20000000   Section        0  lto-llvm-b03267.o(.data..L_MergedGlobals)
+    g_timer_id_task1                         0x20000004   Data           4  lto-llvm-b03267.o(.data..L_MergedGlobals)
+    g_timer_id_task2                         0x20000008   Data           4  lto-llvm-b03267.o(.data..L_MergedGlobals)
+    g_timer_id_task3                         0x2000000c   Data           4  lto-llvm-b03267.o(.data..L_MergedGlobals)
+    g_timer_id_task4                         0x20000010   Data           4  lto-llvm-b03267.o(.data..L_MergedGlobals)
+    g_timer_id_task5                         0x20000014   Data           4  lto-llvm-b03267.o(.data..L_MergedGlobals)
+    g_timer_id_fast1ms                       0x20000018   Data           4  lto-llvm-b03267.o(.data..L_MergedGlobals)
+    g_MCUIdleManager                         0x2000001c   Data          16  lto-llvm-b03267.o(.data..L_MergedGlobals)
+    g_ICE_Conneced                           0x2000002c   Data           4  lto-llvm-b03267.o(.data.g_ICE_Conneced)
+    [Anonymous Symbol]                       0x2000002c   Section        0  lto-llvm-b03267.o(.data.g_ICE_Conneced)
+    counter_systick                          0x20000030   Data           4  lto-llvm-b03267.o(.bss..L_MergedGlobals.30)
+    [Anonymous Symbol]                       0x20000030   Section        0  lto-llvm-b03267.o(.bss..L_MergedGlobals.30)
+    counter_tick                             0x20000034   Data           4  lto-llvm-b03267.o(.bss..L_MergedGlobals.30)
+    g_TimerEventQueue                        0x20000038   Data          76  lto-llvm-b03267.o(.bss..L_MergedGlobals.30)
+    Fast1ms_Callback.fast_cnt                0x20000084   Data           4  lto-llvm-b03267.o(.bss.Fast1ms_Callback.fast_cnt)
+    [Anonymous Symbol]                       0x20000084   Section        0  lto-llvm-b03267.o(.bss.Fast1ms_Callback.fast_cnt)
+    Task1_Callback.cnt                       0x20000088   Data           4  lto-llvm-b03267.o(.bss.Task1_Callback.cnt)
+    [Anonymous Symbol]                       0x20000088   Section        0  lto-llvm-b03267.o(.bss.Task1_Callback.cnt)
+    Task2_Callback.cnt                       0x2000008c   Data           4  lto-llvm-b03267.o(.bss.Task2_Callback.cnt)
+    [Anonymous Symbol]                       0x2000008c   Section        0  lto-llvm-b03267.o(.bss.Task2_Callback.cnt)
+    Task5_Callback.cnt                       0x20000090   Data           4  lto-llvm-b03267.o(.bss.Task5_Callback.cnt)
+    [Anonymous Symbol]                       0x20000090   Section        0  lto-llvm-b03267.o(.bss.Task5_Callback.cnt)
+    g_TimerService_List                      0x200000e8   Data         256  lto-llvm-b03267.o(.bss.g_TimerService_List)
+    [Anonymous Symbol]                       0x200000e8   Section        0  lto-llvm-b03267.o(.bss.g_TimerService_List)
+    STACK                                    0x200001e8   Section     2048  startup_m031series.o(STACK)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv3M$S$PE$A:L22$X:L11$S22$IEEE1$IW$~IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEF$EBA8$MICROLIB$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    __Vectors                                0x00000000   Data           4  startup_m031series.o(RESET)
+    _printf_a                                0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_c                                0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_charcount                        0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_d                                0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_e                                0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_f                                0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_flags                            0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_fp_dec                           0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_fp_hex                           0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_g                                0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_i                                0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_int_dec                          0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_l                                0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_lc                               0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_ll                               0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_lld                              0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_lli                              0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_llo                              0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_llu                              0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_llx                              0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_longlong_dec                     0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_longlong_hex                     0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_longlong_oct                     0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_ls                               0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_mbtowc                           0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_n                                0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_o                                0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_p                                0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_percent                          0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_pre_padding                      0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_return_value                     0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_s                                0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_sizespec                         0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_str                              0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_truncate_signed                  0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_truncate_unsigned                0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_u                                0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_wc                               0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_wctomb                           0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_widthprec                        0x00000000   Number         0  printfstubs.o ABSOLUTE
+    _printf_x                                0x00000000   Number         0  printfstubs.o ABSOLUTE
+    __cpp_initialize__aeabi_                  - Undefined Weak Reference
+    __cxa_finalize                            - Undefined Weak Reference
+    __decompress                              - Undefined Weak Reference
+    _clock_init                               - Undefined Weak Reference
+    _microlib_exit                            - Undefined Weak Reference
+    __main                                   0x000000c1   Thumb Code     0  entry.o(.ARM.Collect$$$$00000000)
+    _main_stk                                0x000000c1   Thumb Code     0  entry2.o(.ARM.Collect$$$$00000001)
+    _main_scatterload                        0x000000c5   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    __main_after_scatterload                 0x000000c9   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    _main_clock                              0x000000c9   Thumb Code     0  entry7b.o(.ARM.Collect$$$$00000008)
+    _main_cpp_init                           0x000000c9   Thumb Code     0  entry8b.o(.ARM.Collect$$$$0000000A)
+    _main_init                               0x000000c9   Thumb Code     0  entry9a.o(.ARM.Collect$$$$0000000B)
+    __rt_final_cpp                           0x000000d1   Thumb Code     0  entry10a.o(.ARM.Collect$$$$0000000D)
+    __rt_final_exit                          0x000000d1   Thumb Code     0  entry11a.o(.ARM.Collect$$$$0000000F)
+    Reset_Handler                            0x000000d5   Thumb Code    38  startup_m031series.o(.text)
+    NMI_Handler                              0x000000fb   Thumb Code     2  startup_m031series.o(.text)
+    HardFault_Handler                        0x000000fd   Thumb Code    16  startup_m031series.o(.text)
+    SVC_Handler                              0x0000010d   Thumb Code     2  startup_m031series.o(.text)
+    PendSV_Handler                           0x0000010f   Thumb Code     2  startup_m031series.o(.text)
+    ACMP01_IRQHandler                        0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    ADC_IRQHandler                           0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    BOD_IRQHandler                           0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    BPWM0_IRQHandler                         0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    BPWM1_IRQHandler                         0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    CKFAIL_IRQHandler                        0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    EINT024_IRQHandler                       0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    EINT135_IRQHandler                       0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    GPABGH_IRQHandler                        0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    GPCDEF_IRQHandler                        0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    I2C0_IRQHandler                          0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    I2C1_IRQHandler                          0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    ISP_IRQHandler                           0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    PDMA_IRQHandler                          0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    PWM0_IRQHandler                          0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    PWM1_IRQHandler                          0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    PWRWU_IRQHandler                         0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    QSPI0_IRQHandler                         0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    RTC_IRQHandler                           0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    SPI0_IRQHandler                          0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    TMR0_IRQHandler                          0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    TMR2_IRQHandler                          0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    TMR3_IRQHandler                          0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    UART13_IRQHandler                        0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    UART46_IRQHandler                        0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    UART57_IRQHandler                        0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    USBD_IRQHandler                          0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    USCI01_IRQHandler                        0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    WDT_IRQHandler                           0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    SH_DoCommand                             0x00000115   Thumb Code    10  startup_m031series.o(.text)
+    __PC                                     0x0000011f   Thumb Code     6  startup_m031series.o(.text)
+    __aeabi_uldivmod                         0x00000155   Thumb Code    96  uldiv.o(.text)
+    __scatterload                            0x000001b5   Thumb Code    38  init.o(.text)
+    __scatterload_rt2                        0x000001b5   Thumb Code     0  init.o(.text)
+    __aeabi_uidiv                            0x000001e5   Thumb Code     0  uidiv_div0.o(.text)
+    __aeabi_uidivmod                         0x000001e5   Thumb Code    62  uidiv_div0.o(.text)
+    __aeabi_llsl                             0x00000223   Thumb Code    32  llshl.o(.text)
+    _ll_shift_l                              0x00000223   Thumb Code     0  llshl.o(.text)
+    __aeabi_llsr                             0x00000243   Thumb Code    34  llushr.o(.text)
+    _ll_ushift_r                             0x00000243   Thumb Code     0  llushr.o(.text)
+    __aeabi_memcpy                           0x00000265   Thumb Code    36  memcpya.o(.text)
+    __aeabi_memcpy4                          0x00000265   Thumb Code     0  memcpya.o(.text)
+    __aeabi_memcpy8                          0x00000265   Thumb Code     0  memcpya.o(.text)
+    ProcessHardFault                         0x00000369   Thumb Code    40  lto-llvm-b03267.o(.text.ProcessHardFault)
+    SH_Return                                0x000003a9   Thumb Code     4  lto-llvm-b03267.o(.text.SH_Return)
+    SysTick_Handler                          0x000003c5   Thumb Code    12  lto-llvm-b03267.o(.text.SysTick_Handler)
+    SystemInit                               0x0000046d   Thumb Code    44  lto-llvm-b03267.o(.text.SystemInit)
+    TMR1_IRQHandler                          0x000004a1   Thumb Code   156  lto-llvm-b03267.o(.text.TMR1_IRQHandler)
+    UART02_IRQHandler                        0x00000645   Thumb Code   104  lto-llvm-b03267.o(.text.UART02_IRQHandler)
+    fputc                                    0x000006dd   Thumb Code    32  lto-llvm-b03267.o(.text.fputc)
+    main                                     0x00000701   Thumb Code  1544  lto-llvm-b03267.o(.text.main)
+    __0printf$8                              0x00000dc5   Thumb Code    24  printf8.o(i.__0printf$8)
+    __1printf$8                              0x00000dc5   Thumb Code     0  printf8.o(i.__0printf$8)
+    __2printf                                0x00000dc5   Thumb Code     0  printf8.o(i.__0printf$8)
+    __scatterload_copy                       0x00000de5   Thumb Code    14  handlers.o(i.__scatterload_copy)
+    __scatterload_null                       0x00000df3   Thumb Code     2  handlers.o(i.__scatterload_null)
+    __scatterload_zeroinit                   0x00000df5   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
+    puts                                     0x00001279   Thumb Code    28  puts.o(i.puts)
+    Region$$Table$$Base                      0x000015a0   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x000015c0   Number         0  anon$$obj.o(Region$$Table)
+    __stdout                                 0x20000094   Data          84  lto-llvm-b03267.o(.bss.__stdout)
+    __initial_sp                             0x200009e8   Data           0  startup_m031series.o(STACK)
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x000000d5
+
+  Load Region LR_1 (Base: 0x00000000, Size: 0x000015f0, Max: 0xffffffff, ABSOLUTE)
+
+    Execution Region ER_RO (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x000015c0, Max: 0xffffffff, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000000   0x00000000   0x000000c0   Data   RO            4    RESET               startup_m031series.o
+    0x000000c0   0x000000c0   0x00000000   Code   RO           21  * .ARM.Collect$$$$00000000  mc_p.l(entry.o)
+    0x000000c0   0x000000c0   0x00000004   Code   RO          291    .ARM.Collect$$$$00000001  mc_p.l(entry2.o)
+    0x000000c4   0x000000c4   0x00000004   Code   RO          294    .ARM.Collect$$$$00000004  mc_p.l(entry5.o)
+    0x000000c8   0x000000c8   0x00000000   Code   RO          296    .ARM.Collect$$$$00000008  mc_p.l(entry7b.o)
+    0x000000c8   0x000000c8   0x00000000   Code   RO          298    .ARM.Collect$$$$0000000A  mc_p.l(entry8b.o)
+    0x000000c8   0x000000c8   0x00000008   Code   RO          299    .ARM.Collect$$$$0000000B  mc_p.l(entry9a.o)
+    0x000000d0   0x000000d0   0x00000000   Code   RO          301    .ARM.Collect$$$$0000000D  mc_p.l(entry10a.o)
+    0x000000d0   0x000000d0   0x00000000   Code   RO          303    .ARM.Collect$$$$0000000F  mc_p.l(entry11a.o)
+    0x000000d0   0x000000d0   0x00000004   Code   RO          292    .ARM.Collect$$$$00002712  mc_p.l(entry2.o)
+    0x000000d4   0x000000d4   0x00000080   Code   RO            5  * .text               startup_m031series.o
+    0x00000154   0x00000154   0x00000060   Code   RO          309    .text               mc_p.l(uldiv.o)
+    0x000001b4   0x000001b4   0x00000030   Code   RO          322    .text               mc_p.l(init.o)
+    0x000001e4   0x000001e4   0x0000003e   Code   RO          326    .text               mc_p.l(uidiv_div0.o)
+    0x00000222   0x00000222   0x00000020   Code   RO          332    .text               mc_p.l(llshl.o)
+    0x00000242   0x00000242   0x00000022   Code   RO          334    .text               mc_p.l(llushr.o)
+    0x00000264   0x00000264   0x00000024   Code   RO          411    .text               mc_p.l(memcpya.o)
+    0x00000288   0x00000288   0x0000001c   Code   RO          357    .text.CLK_GetPCLK0Freq  lto-llvm-b03267.o
+    0x000002a4   0x000002a4   0x00000018   Code   RO          359    .text.CLK_WaitClockReady  lto-llvm-b03267.o
+    0x000002bc   0x000002bc   0x0000006c   Code   RO          389    .text.CpuLoadMonitor_Callback  lto-llvm-b03267.o
+    0x00000328   0x00000328   0x00000010   Code   RO          365    .text.Fast1ms_Callback  lto-llvm-b03267.o
+    0x00000338   0x00000338   0x00000030   Code   RO          361    .text.GPIO_SetMode  lto-llvm-b03267.o
+    0x00000368   0x00000368   0x00000040   Code   RO          349    .text.ProcessHardFault  lto-llvm-b03267.o
+    0x000003a8   0x000003a8   0x00000004   Code   RO          347    .text.SH_Return     lto-llvm-b03267.o
+    0x000003ac   0x000003ac   0x00000018   Code   RO          379    .text.SYS_UnlockReg  lto-llvm-b03267.o
+    0x000003c4   0x000003c4   0x0000000c   Code   RO          363    .text.SysTick_Handler  lto-llvm-b03267.o
+    0x000003d0   0x000003d0   0x0000009c   Code   RO          343    .text.SystemCoreClockUpdate  lto-llvm-b03267.o
+    0x0000046c   0x0000046c   0x00000034   Code   RO          345    .text.SystemInit    lto-llvm-b03267.o
+    0x000004a0   0x000004a0   0x000000a8   Code   RO          377    .text.TMR1_IRQHandler  lto-llvm-b03267.o
+    0x00000548   0x00000548   0x0000002c   Code   RO          375    .text.Task1_Callback  lto-llvm-b03267.o
+    0x00000574   0x00000574   0x0000003c   Code   RO          373    .text.Task2_Callback  lto-llvm-b03267.o
+    0x000005b0   0x000005b0   0x00000002   Code   RO          371    .text.Task3_Callback  lto-llvm-b03267.o
+    0x000005b2   0x000005b2   0x00000002   Code   RO          369    .text.Task4_Callback  lto-llvm-b03267.o
+    0x000005b4   0x000005b4   0x0000003c   Code   RO          367    .text.Task5_Callback  lto-llvm-b03267.o
+    0x000005f0   0x000005f0   0x00000034   Code   RO          387    .text.TimerService_CreateTimer  lto-llvm-b03267.o
+    0x00000624   0x00000624   0x00000020   Code   RO          385    .text.TimerService_StartTimer  lto-llvm-b03267.o
+    0x00000644   0x00000644   0x00000098   Code   RO          381    .text.UART02_IRQHandler  lto-llvm-b03267.o
+    0x000006dc   0x000006dc   0x00000024   Code   RO          351    .text.fputc         lto-llvm-b03267.o
+    0x00000700   0x00000700   0x000006c4   Code   RO          383    .text.main          lto-llvm-b03267.o
+    0x00000dc4   0x00000dc4   0x00000020   Code   RO          237    i.__0printf$8       mc_p.l(printf8.o)
+    0x00000de4   0x00000de4   0x0000000e   Code   RO          417    i.__scatterload_copy  mc_p.l(handlers.o)
+    0x00000df2   0x00000df2   0x00000002   Code   RO          418    i.__scatterload_null  mc_p.l(handlers.o)
+    0x00000df4   0x00000df4   0x0000000e   Code   RO          419    i.__scatterload_zeroinit  mc_p.l(handlers.o)
+    0x00000e02   0x00000e02   0x00000002   PAD
+    0x00000e04   0x00000e04   0x00000428   Code   RO          244    i._printf_core      mc_p.l(printf8.o)
+    0x0000122c   0x0000122c   0x00000020   Code   RO          245    i._printf_post_padding  mc_p.l(printf8.o)
+    0x0000124c   0x0000124c   0x0000002c   Code   RO          246    i._printf_pre_padding  mc_p.l(printf8.o)
+    0x00001278   0x00001278   0x00000020   Code   RO           22    i.puts              mc_p.l(puts.o)
+    0x00001298   0x00001298   0x00000020   Data   RO          394    .rodata.cst32       lto-llvm-b03267.o
+    0x000012b8   0x000012b8   0x00000004   Data   RO          393    .rodata.cst4        lto-llvm-b03267.o
+    0x000012bc   0x000012bc   0x000002e4   Data   RO          397    .rodata.str1.1      lto-llvm-b03267.o
+    0x000015a0   0x000015a0   0x00000020   Data   RO          416    Region$$Table       anon$$obj.o
+
+
+    Execution Region ER_RW (Exec base: 0x20000000, Load base: 0x000015c0, Size: 0x00000030, Max: 0xffffffff, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000   0x000015c0   0x0000002c   Data   RW          402    .data..L_MergedGlobals  lto-llvm-b03267.o
+    0x2000002c   0x000015ec   0x00000004   Data   RW          391    .data.g_ICE_Conneced  lto-llvm-b03267.o
+
+
+    Execution Region ER_ZI (Exec base: 0x20000030, Load base: 0x000015f0, Size: 0x000009b8, Max: 0xffffffff, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000030        -       0x00000054   Zero   RW          403    .bss..L_MergedGlobals.30  lto-llvm-b03267.o
+    0x20000084        -       0x00000004   Zero   RW          395    .bss.Fast1ms_Callback.fast_cnt  lto-llvm-b03267.o
+    0x20000088        -       0x00000004   Zero   RW          399    .bss.Task1_Callback.cnt  lto-llvm-b03267.o
+    0x2000008c        -       0x00000004   Zero   RW          398    .bss.Task2_Callback.cnt  lto-llvm-b03267.o
+    0x20000090        -       0x00000004   Zero   RW          396    .bss.Task5_Callback.cnt  lto-llvm-b03267.o
+    0x20000094        -       0x00000054   Zero   RW          392    .bss.__stdout       lto-llvm-b03267.o
+    0x200000e8        -       0x00000100   Zero   RW          401    .bss.g_TimerService_List  lto-llvm-b03267.o
+    0x200001e8        -       0x00000800   Zero   RW            2    STACK               startup_m031series.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+      2876        648        776         48        440      28542   lto-llvm-b03267.o
+       128         50        192          0       2048        840   startup_m031series.o
+
+    ----------------------------------------------------------------------
+      3004        698       1000         48       2488      29382   Object Totals
+         0          0         32          0          0          0   (incl. Generated)
+         0          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+         0          0          0          0          0          0   entry.o
+         0          0          0          0          0          0   entry10a.o
+         0          0          0          0          0          0   entry11a.o
+         8          4          0          0          0          0   entry2.o
+         4          0          0          0          0          0   entry5.o
+         0          0          0          0          0          0   entry7b.o
+         0          0          0          0          0          0   entry8b.o
+         8          4          0          0          0          0   entry9a.o
+        30          0          0          0          0          0   handlers.o
+        48         10          0          0          0         68   init.o
+        32          0          0          0          0         68   llshl.o
+        34          0          0          0          0         68   llushr.o
+        36          0          0          0          0         60   memcpya.o
+      1172         52          0          0          0        324   printf8.o
+        32          4          0          0          0         68   puts.o
+        62          0          0          0          0         72   uidiv_div0.o
+        96          0          0          0          0         84   uldiv.o
+
+    ----------------------------------------------------------------------
+      1564         74          0          0          0        812   Library Totals
+         2          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+      1562         74          0          0          0        812   mc_p.l
+
+    ----------------------------------------------------------------------
+      1564         74          0          0          0        812   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+      4568        772       1000         48       2488      29994   Grand Totals
+      4568        772       1000         48       2488      29994   ELF Image Totals
+      4568        772       1000         48          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                 5568 (   5.44kB)
+    Total RW  Size (RW Data + ZI Data)              2536 (   2.48kB)
+    Total ROM Size (Code + RO Data + RW Data)       5616 (   5.48kB)
+
+==============================================================================
+
