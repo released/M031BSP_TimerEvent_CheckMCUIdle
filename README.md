@@ -25,7 +25,7 @@ __record the idle_max value into idle_max in g_MCUIdleManager__
 ![image](https://github.com/released/M031BSP_TimerEvent_CheckMCUIdle/blob/main/turn_off_CPU_LOAD_CALIBRATION.jpg)
 
 
-- enable basic interrupt (UAART , systick)
+- enable basic interrupt (UART , systick)
 
 ![image](https://github.com/released/M031BSP_TimerEvent_CheckMCUIdle/blob/main/turn_on_basic_interrupt.jpg)
 
