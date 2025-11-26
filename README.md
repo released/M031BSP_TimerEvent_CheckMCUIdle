@@ -18,6 +18,8 @@ update @ 2025/11/26
 ![image](https://github.com/released/M031BSP_TimerEvent_CheckMCUIdle/blob/main/get_idle_max_value.jpg)
 
 
+__record the idle_max value into idle_max in g_MCUIdleManager__
+
 - turn off CPU_LOAD_CALIBRATION 
 
 ![image](https://github.com/released/M031BSP_TimerEvent_CheckMCUIdle/blob/main/turn_off_CPU_LOAD_CALIBRATION.jpg)
